@@ -1,0 +1,16 @@
+.btn {
+    padding: 9px 23px;
+    border-radius: 20px;
+    background-color: $accent-color;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        background-color: $accent-hover;
+    }
+}

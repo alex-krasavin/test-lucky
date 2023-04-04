@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// section
+@import "./section/header";
+@import "./blocks/logo";
+@import "./blocks/nav";
+@import "./section/hero";
+@import "./blocks/title-main";
+@import "./blocks/slider";
+@import "./section/description";
+@import "./blocks/title-2";
+@import "./blocks/description-one";
+@import "./blocks/description-two";
+@import "./blocks/card";
+@import "./blocks/btn";
