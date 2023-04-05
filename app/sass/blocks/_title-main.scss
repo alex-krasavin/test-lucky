@@ -12,4 +12,11 @@
     span {
         color: #FF8345;
     }
+
+    @media (max-width:600px) {
+        padding-top: 25px;
+        font-size: 30px;
+        margin-bottom: 14px;
+        line-height: 1.3;
+    }
 }

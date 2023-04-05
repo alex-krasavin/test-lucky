@@ -1,11 +1,20 @@
-// .nav {
-
-// }
+.nav {
+    @media (max-width:900px) {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
 
 .nav__list {
     display: flex;
     align-items: center;
     column-gap: 50px;
+
+    @media (max-width:900px) {
+        display: none;
+    }
 }
 
 .nav__item {

@@ -13,4 +13,9 @@
     &:hover {
         background-color: $accent-hover;
     }
+
+    @media (max-width:600px) {
+        font-size: 14px;
+        line-height: 1;
+    }
 }
